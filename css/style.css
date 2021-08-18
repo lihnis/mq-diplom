@@ -17,7 +17,7 @@
   font-weight: 700;
   font-style: normal;
 }
-
+                                                    /*header*/
 .header {
   /*width: 1660px;*/
   background-image: url("../images/banner-bg.jpg");
@@ -98,7 +98,7 @@
   margin-bottom: 65px;
 }
 
-/*   trends   */
+                                             /*   trends   */
 
 .trend-title {
   display: block;
@@ -235,7 +235,7 @@
   text-transform: uppercase;
 }
 
-/*   main   */
+                                              /*   main   */
 .page-content {
   display: flex;
   width: 1200px;
@@ -324,7 +324,7 @@
   padding-top: 15px;
 }
 
-/*aside*/
+                                                  /*aside*/
 
 .aside-list {
   width: 287px;
@@ -381,7 +381,7 @@
   text-transform: uppercase;
 }
 
-/* search   mailing */
+                                                /* search   mailing */
 
 .search {
   margin-top: 60px;
@@ -438,7 +438,7 @@
   font-size: 13px;
 }
 
-/*  tegs */
+                                               /*  tegs */
 
 .tegs {
   margin-top: 60px;
@@ -467,7 +467,7 @@
   color: #0f0d0e;
 }
 
-/*category*/
+                                       /*category*/
 
 .category {
   margin-top: 60px;
@@ -502,7 +502,7 @@
   margin-left: 5px;
 }
 
-/*    SHOP      */
+                                            /*    SHOP      */
 
 .shop {
   width: 1200px;
@@ -598,6 +598,13 @@
   align-items: flex-end;
 }
 
+.rub {
+  line-height: 5px;
+	width: 0.4em;
+	border-bottom: 1px solid #000; 
+	display: inline-block;
+}
+
 .old-price {
   box-sizing: border-box;
   font-size: 14px;
@@ -631,6 +638,11 @@
   text-align: center;
   text-transform: uppercase;
   line-height: 48px;
+}
+
+.price-link-text {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 /*   Footer   */
