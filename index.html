@@ -4,9 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <title>MQ Diplom</title>
+  <title>MQ Diplom1</title>
 </head>
 
 <body>
@@ -18,8 +19,12 @@
 
         <a href="#home"><img src="svg/noemi-logo.svg" class="header-logo" alt="Логотип"></a>
 
+        <button class="menu__button">
+          <span class="menu__button-label">открыть меню</span>
+        </button>
+
         <nav class="menu">
-          <ul class="menu-list">
+           <ul class="menu-list">
             <li class="menu-list-item">
               <a class="menu-link" href="#0">Главная</a>
             </li>
@@ -41,15 +46,18 @@
           </ul>
         </nav>
       </div>
+      <div class="conteiner-header-title">
+        <h1 class="header-title">Блог о творчестве, спорте и образе жизни</h1>
+      </div>
     </div>
-    <div class="conteiner-header-title">
-      <h1 class="header-title">Блог о творчестве, спорте и образе жизни</h1>
-    </div>
+   
   </header>
 
-  <h2 class="trend-title"><a href="#0" class="trend-link-title"> Сейчас в тренде</a></h2>
+ 
 
   <section class="trends">
+
+    <h2 class="trend-title"><a href="#0" class="trend-link-title"> Сейчас в тренде</a></h2>
 
     <div class="trend trend1">
       <div class="trend-content trend-border">
@@ -292,18 +300,20 @@
 
     <aside class="aside-list">
 
-      <h3 class="lasted-posts-title">Новые посты</h3>
+    
 
-      <div class="lasted-post-conteiner">
+      <section class="lasted-post-conteiner">
+
+        <h3 class="lasted-posts-title">Новые посты</h3>
 
         <article class="lasted-posts">
           <img class="lasted-picture-jpg" src="images/2.jpg" alt="Изображение - Человек идет вдоль берега моря">
 
           <section class="lasted-posts-text">
             <time class="lasted-posts-date"> 14 июня 2019</time>
-            <h3 class="lasted-posts-text-title">
+            <h4 class="lasted-posts-text-title">
               <a class="lasted-posts-link" href="#0">10 мест, ради которых стоит проснуться</a>
-            </h3>
+            </h4>
           </section>
         </article>
 
@@ -312,9 +322,9 @@
 
           <section class="lasted-posts-text">
             <time class="lasted-posts-date"> 14 июня 2019</time>
-            <h3 class="lasted-posts-text-title">
+            <h4 class="lasted-posts-text-title">
               <a class="lasted-posts-link" href="#0">йога для домашних</a>
-            </h3>
+            </h4>
           </section>
         </article>
 
@@ -323,9 +333,9 @@
 
           <section class="lasted-posts-text">
             <time class="lasted-posts-date"> 14 июня 2019</time>
-            <h3 class="lasted-posts-text-title">
+            <h4 class="lasted-posts-text-title">
               <a class="lasted-posts-link" href="#0">как мы превратили классное место в балкон</a>
-            </h3>
+            </h4>
           </section>
         </article>
 
@@ -334,9 +344,9 @@
 
           <section class="lasted-posts-text">
             <time class="lasted-posts-date"> 14 июня 2019</time>
-            <h3 class="lasted-posts-text-title">
+            <h4 class="lasted-posts-text-title">
               <a class="lasted-posts-link" href="#0">Кулинарный подход к науке</a>
-            </h3>
+            </h4>
           </section>
         </article>
 
@@ -345,13 +355,13 @@
 
           <section class="lasted-posts-text">
             <time class="lasted-posts-date"> 14 июня 2019</time>
-            <h3 class="lasted-posts-text-title">
+            <h4 class="lasted-posts-text-title">
               <a class="lasted-posts-link" href="#0">лучшие прически для распущенных волос</a>
-            </h3>
+            </h4>
           </section>
         </article>
 
-      </div>
+      </section>
 
       <form class="search">
         <label class="search-group">
@@ -388,6 +398,7 @@
       </section>
 
       <section class="category">
+       
         <h3 class="lasted-posts-title">Темы</h3>
 
         <ul class="category-lists">
@@ -398,72 +409,83 @@
           <li class="category-list"><a class="category-link" href="#0">Спорт</a><span class="sup">62</span></li>
           <li class="category-list"><a class="category-link" href="#0">Йога</a><span class="sup">8</span></li>
         </ul>
+   
       </section>
 
     </aside>
   </div>
 
 
-  <h2 class="shop-title"><a href="#0" class="shop-link-title"> Наши изделия</a></h2>
-
   <section class="shop">
-    <div class="shop-image">
-      <img class="shop-item-desk" src="images/shop-item-desk1.jpg" alt="Подушки на диван">
-      <img class="shop-item-desk" src="images/shop-item-desk2.jpg" alt="Кукла Зайчик">
-      <img class="shop-item-desk" src="images/shop-item-desk3.jpg" alt="Шестиугольная рамка">
-    </div>
-
+  
+    <h2 class="shop-title"><a href="#0" class="shop-link-title"> Наши изделия</a></h2>
+  
     <div class="shop-content">
-      <div class="shop-content-item">
-        <h2 class="shop-text-title">Подушки на диван</h2>
-        <p class="shop-text">Набор из двух подушек с модными принтами. Видео о создании <a class="shop-text-link"
-            href="#">здесь.</a></p>
-
-        <div class="shop-price">
-          <div class="shop-price-item">
-            <p class="old-price">1000 <span class="rub">P</span>></p>
-            <p class="new-price">800 <span class="rub">P</span></p>
-          </div>
-          <div class="shop-price-link">
-            <p class="shop-price-link-text"> <a class="price-link-text" href="#">В магазин</a></p>
+      <div class="shop-item">
+        <div class="shop-image">
+          <img class="shop-item-desk shop-item-desk1" src="images/shop-item-desk1.jpg" alt="Подушки на диван">
+        </div>
+        <div class="shop-content-item">
+          <h2 class="shop-text-title">Подушки на диван</h2>
+          <p class="shop-text">Набор из двух подушек с модными принтами. Видео о создании <a class="shop-text-link"
+              href="#">здесь.</a></p>
+  
+          <div class="shop-price">
+            <div class="shop-price-item">
+              <p class="old-price">1000 <span class="rub">P</span>></p>
+              <p class="new-price">800 <span class="rub">P</span></p>
+            </div>
+            <div class="shop-price-link">
+              <p class="shop-price-link-text"> <a class="price-link-text" href="#">В магазин</a></p>
+            </div>
           </div>
         </div>
       </div>
-
-
-      <div class="shop-content-item">
-        <h2 class="shop-text-title">Кукла «Зайчик»</h2>
-        <p class="shop-text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a
-            class="shop-text-link" href="#">весенняя серия постов</a> в блоге и несколько подкастов.</p>
-
-        <div class="shop-price">
-          <div class="shop-price-item">
-            <p class="new-price">3500 P</p>
-          </div>
-          <div class="shop-price-link">
-            <p class="shop-price-link-text"><a class="price-link-text" href="#">В магазин</a></p>
+  
+      <div class="shop-item">
+        <div class="shop-image">
+          <img class="shop-item-desk shop-item-desk2" src="images/shop-item-desk2.jpg" alt="Кукла Зайчик">
+        </div>
+        <div class="shop-content-item">
+          <h2 class="shop-text-title">Кукла «Зайчик»</h2>
+          <p class="shop-text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a
+              class="shop-text-link" href="#">весенняя серия постов</a> в блоге и несколько подкастов.</p>
+  
+          <div class="shop-price">
+            <div class="shop-price-item">
+              <p class="new-price">3500 <span class="rub">P</span></p>
+            </div>
+            <div class="shop-price-link">
+              <p class="shop-price-link-text"><a class="price-link-text" href="#">В магазин</a></p>
+            </div>
           </div>
         </div>
       </div>
-
-
-
-      <div class="shop-content-item">
-        <h2 class="shop-text-title">Шестиугольная рамка</h2>
-        <p class="shop-text"> Необычная рамка для украшения дома из видео <a class="shop-text-link" href="#"> «Как
-            сделать рамку из подручных средств за 30 минут»</a></p>
-
-        <div class="shop-price">
-          <div class="shop-price-item">
-            <p class="old-price">500 P</p>
-            <p class="new-price">400 P</p>
-          </div>
-          <div class="shop-price-link">
-            <p class="shop-price-link-text"><a class="price-link-text" href="#">В магазин</a></p>
+  
+      <div class="shop-item">
+        <div class="shop-image">
+          <img class="shop-item-desk shop-item-desk3" src="images/shop-item-desk3.jpg" alt="Шестиугольная рамка">
+        </div>
+        <div class="shop-content-item">
+          <h2 class="shop-text-title">Шестиугольная рамка</h2>
+          <p class="shop-text"> Необычная рамка для украшения дома из видео <a class="shop-text-link" href="#"> «Как
+              сделать рамку из подручных средств за 30 минут»</a></p>
+  
+          <div class="shop-price">
+            <div class="shop-price-item">
+              <p class="old-price">500 <span class="rub">P</span></p>
+              <p class="new-price">400 <span class="rub">P</span></p>
+            </div>
+            <div class="shop-price-link">
+              <p class="shop-price-link-text"><a class="price-link-text" href="#">В магазин</a></p>
+            </div>
           </div>
         </div>
-
-
+      </div>
+    </div>
+  
+  
+    </div>
   </section>
 
 
@@ -506,6 +528,38 @@
     </footer>
 
   </footer>
+
+<section class="popup">
+      <h2 class="popup-title"> Ваш фидбек</h2>
+    <label class="popup-text" for="often">Как часто вы заходите на сайт? </label>
+    <select class="popup-select" id="often">
+      <option selected>Почти каждый день</option>
+      <option>Раз в несколько дней</option>
+      <option>Раз в несколько недель</option>
+      <option>Несколько раз в год</option>
+    </select>
+
+    <form class="e-mail">
+      <span class="popup-text">Вы подписаны на e-mail рассылку? </span>
+      <label class="radio-group">
+        <input type="radio" class="radio" name="radio-group">
+        <span class="radio-group-text">Да</span>
+      </label>
+      <label class="radio-group">
+        <input type="radio" class="radio" name="radio-group">
+        <span class="radio-group-text">Нет</span>
+      </label>
+    </form>
+
+    <form class="more-thems">
+      <span class="popup-text">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+      <textarea class="more-thems-text" placeholder="Может, больше рецептов?"></textarea>
+    </form>
+
+    <button class="submit"> Отправить</button>
+ 
+</section>
+
 </body>
 
 </html>
