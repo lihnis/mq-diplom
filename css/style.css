@@ -1023,6 +1023,10 @@ text-transform: uppercase;
   display: block;
   }
 
+  .shop-content-item {
+    width: 100%;
+  }
+
 .shop-item-desk1 {
   background-image: url(../images/shop-item-mobile1.jpg);
 }
